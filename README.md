@@ -1,21 +1,21 @@
 # Library Management System
 
-A Java console application for managing a small library — keeping track of books, members, and loans.
+A Java console application for managing a small library. It keeps track of books and handles the loans that link books to the people who borrow them.
 
-> _[TODO: Replace this with a sentence or two in your own words. Why did you build it? Is it a school project, a personal project, something you're learning Java with?]_
+This project was built as a way to practice core Java concepts — object-oriented design, working with collections, and organizing a program across multiple classes.
 
 ## Features
 
-- Add and store books in the library catalog
-- Track loans — check books out and return them
-- _[TODO: list any other features your program actually has, e.g. search for a book, list all books, track due dates, remove a book]_
+- Store and manage a catalog of books
+- Check books out as loans and return them
+- Keep book details and loan records organized through dedicated classes
+- Simple, dependency-free console program that runs anywhere Java does
 
 ## Getting Started
 
 ### Prerequisites
 
 - Java Development Kit (JDK) 8 or higher installed
-- _[TODO: note your version if you know it — e.g. JDK 17]_
 
 ### Running the Project
 
@@ -39,27 +39,26 @@ Or open the project directly in Eclipse (**File → Import → Existing Projects
 
 | File | Description |
 |------|-------------|
-| `Main.java` | Entry point — starts the program |
-| `Library.java` | Core class that manages the collection of books and loans |
+| `Main.java` | Entry point that starts and drives the program |
+| `Library.java` | Core class that manages the collection of books and active loans |
 | `Book.java` | Represents a single book and its details |
-| `Loan.java` | Represents a book loan (who borrowed what) |
-
-_[TODO: adjust the descriptions above to match what each class actually does.]_
+| `Loan.java` | Represents a loan, linking a borrowed book to a borrower |
 
 ## Built With
 
-- Java
-- _[TODO: mention anything else, e.g. no external libraries / built with the standard library only]_
+- Java (standard library only — no external dependencies)
 
 ## Future Improvements
 
-- _[TODO: optional — list anything you'd like to add later, e.g. save data to a file, add a GUI, search functionality]_
+- Save and load library data to a file so records persist between runs
+- Add search and filtering to find books quickly
+- Track due dates and flag overdue loans
+- Build a graphical interface on top of the existing logic
 
 ## Author
 
 **CLUJMAN**
-_[TODO: your name if you want it here]_
 
 ## License
 
-_[TODO: optional — e.g. "This project is licensed under the MIT License." If you don't care, you can delete this section.]_
+This project is free to use and modify for learning purposes.
